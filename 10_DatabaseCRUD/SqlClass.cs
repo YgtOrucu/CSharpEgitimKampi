@@ -11,7 +11,7 @@ namespace _10_DatabaseCRUD
     {
         public SqlConnection SqlBaglantı()
         {
-            SqlConnection sql = new SqlConnection("Data Source=YigitOrucu\\SQLEXPRESS;Initial Catalog=DB_CSharpEgitimKampı;Integrated Security=True;TrustServerCertificate=True");
+            SqlConnection sql = new SqlConnection("Data Source=YIGITORUCU\\MY_YOUTUBEKURSU;Initial Catalog=DB_CSharpEgitimKampı;Integrated Security=True;TrustServerCertificate=True");
             return sql;
         }
     }
